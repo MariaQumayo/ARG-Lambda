@@ -1,0 +1,26 @@
+html {
+    background-color: #000000; 
+  }
+
+  #vid {
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    display:none;
+    }
+
+ #logo{
+    position: absolute;
+     left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    margin-top:4%;
+    z-index: 2;
+    display:block;
+    }
+
+    img:hover {
+        opacity: 0.5;
+        filter: alpha(opacity=100); /* For IE8 and earlier */
+    }
